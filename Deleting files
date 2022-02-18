@@ -1,0 +1,7 @@
+import os
+from os import listdir
+my_path="C:/Users/320162430/Desktop/"
+for file_name in listdir(my_path):
+    if file_name.endswith('.PNG'):
+        os.remove(my_path+file_name)
+        
